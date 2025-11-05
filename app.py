@@ -4,7 +4,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Player Performance Dashboard", layout="wide")
 
-st.title("⚽ Player Performance Dashboard")
+st.title("⚽ Player Performance Dashboard") 
 
 # Load data
 df = pd.read_csv('african_football_legends.csv', encoding='latin-1')
