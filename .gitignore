@@ -1,0 +1,141 @@
+# Python Virtual Environments
+venv/
+env/
+ENV/
+.venv
+venv.bak/
+env.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Windows shortcuts
+*.lnk
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data Files (uncomment if needed)
+# *.csv
+# *.xlsx
+# *.json
+# data/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Documentation
+docs/_build/
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.pyc
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# MacOS (in case of cross-platform work)
+.DS_Store
+.AppleDouble
+.LSOverride
